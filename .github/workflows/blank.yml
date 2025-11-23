@@ -60,4 +60,10 @@ jobs:
           echo "La region es: ${{env.user}}"
           echo "La cantidad es: ${{env.password}}"
 
+      # Variables abiertas
+      - name: Variable abierta
+        run: |
+          echo "Imprimir variable abierta: ${{ vars.SEMANA_14}}"
+          
+
 
